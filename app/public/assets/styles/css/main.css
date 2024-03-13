@@ -1,0 +1,98 @@
+@import url(/app/public/assets/styles/css/socket.css);
+body{
+    background: #161616;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 1.3em;
+    
+}
+
+.nav-bar a:hover{
+    color: white;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 2.3em;
+    font-weight: 200;
+}
+
+.logo a:hover{
+    color: white;
+}
+
+.desc-box{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin: 15rem  auto;
+}
+
+.desc-text-box{
+    width: 35vw;
+}
+
+.title-desc{
+    color: rgb(255, 255, 255);
+    font-size: 5.6em;
+    font-weight: 200;
+}
+
+.text-desc{
+    color: #306eff;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: end;
+    
+}
+
+#icon-desc{
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-box{
+    
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    color: white;
+    margin: 0 auto;
+}
+
+.resumo-title{
+    font-size: 2.4rem;
+    margin-bottom: 1.3rem;
+}
+.resumo-text{
+    font-size: 1.3em;
+
+}
